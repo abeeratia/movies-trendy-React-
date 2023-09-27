@@ -6,7 +6,8 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.js';
 import './index.css';
 import { routes } from './Routes/all_routes';
-import { RouterProvider } from 'react-router-dom/dist/umd/react-router-dom.development';
+
+import { RouterProvider } from 'react-router-dom';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
