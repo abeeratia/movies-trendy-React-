@@ -1,10 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Navbar from './../Navbar/Navbar';
 import Footer from '../Footer/Footer';
 import { Outlet } from 'react-router-dom';
 
-class Layout extends Component {
-    render() {
+const Layout  =() => {
         return (
             <>
              <Navbar/>
@@ -12,7 +11,7 @@ class Layout extends Component {
              <Footer/> 
             </>
         );
-    }
+    
 }
 
 export default Layout;
